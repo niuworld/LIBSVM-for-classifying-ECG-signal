@@ -6,6 +6,8 @@ using LIBSVM to classify various kinds of heart beats in ECG signals
 
 I am doing a research to classify the heart beat using SVM. My database is from [MITBIH ARRYTHMIA](http://physionet.org/physiobank/database/mitdb/). 
   
+The LIBSVM is from [Chih-Chung Chang and Chih-Jen Lin](http://www.csie.ntu.edu.tw/~cjlin/libsvm/). Great thanks to them!
+
 fr.get.train.data.from.MIT.BIH.m is to get heart beat from MITBIH DATABSE. It ouput include the label and feature.
 
 fr.ecg.bandpass.filter.m is a function that help filter the signal.
